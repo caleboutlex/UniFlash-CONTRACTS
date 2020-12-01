@@ -1,0 +1,21 @@
+{
+  "name": "uniswap_flashloan",
+  "version": "1.0.0",
+  "description": "A smart contract that does triangular arbitrage on Uniswap",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lex Calebout",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "dotenv": "^8.2.0",
+    "truffle-plugin-verify": "^0.5.2"
+  }
+}
